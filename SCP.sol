@@ -38,7 +38,7 @@ contract SmartContract {
         // when not used it doesnt return the gas consumed
         // if used it returns the remaining gas
         if(!(_amount > 45)){
-            revert("Amount must be greater than zero.");
+            revert("Amount must be greater than 45.");
         }
         return _amount;
     }
